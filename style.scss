@@ -1,0 +1,172 @@
+// 共通功能性樣式
+.d-block{
+    display: block;
+}
+.d-flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+
+// 類別標籤共通樣式
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+a, img{
+    display: block;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+h1{
+    border-bottom: 2px solid #000;
+    font-size: 80px;
+    line-height: 95px;
+    padding-top: 40px;
+    padding-bottom: 24px;
+}
+
+// 自定義樣式
+.title-cn{
+    font-size: 32px;
+    line-height: 48px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 16px;
+}
+.title-en{
+    font-size: 24px;
+    line-height: 29px;
+    color: #A00404;
+    margin-left: 16px;
+}
+.Wtitle-cn{
+    font-size: 32px;
+    line-height: 45px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 40px;
+}
+.Wtitle-en{
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 16px;
+}
+
+// header
+header, .profileArea, .eduArea, .workexpArea{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.avatar{
+      padding: 48px 0;
+}
+
+// content
+.profileArea, .eduArea{
+    padding-bottom: 48px;
+}
+.contentList{
+    li{
+        font-weight: 100;
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 24px;
+    }
+}
+.skillsArea, footer{
+    background-color: #415165;
+    color: #fff;
+}
+.skillsArea{
+    padding: 24px 0 52px 0;
+}
+.skillsList {
+    border-left: 1px solid #96A9C4;
+    padding-left: 24px;
+    li{
+        font-weight: 100;
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+}
+
+.workexpArea{
+    padding: 72px 0 52px 0;
+    .logo{
+        padding: 8px 0;
+    }
+    li{
+        margin-bottom: 32px;
+    }
+    .workexpTitle{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .workexpPara{
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+// footer
+.info{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 24px 0 48px 0;
+    h2{
+        border-bottom: 1px solid #fff;
+        padding-bottom: 8px;
+        margin-bottom: 32px;
+    }
+    .info-Wtitle-cn{
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .info-Wtitle-en{
+        font-size: 24px;
+        line-height: 29px;
+        margin-left: 16px;
+    }
+    .textList{
+        text-align: center;
+        margin-bottom: 4px;
+        li{
+            font-weight: 100;
+            font-size: 24px;
+            line-height: 36px;
+            margin-bottom: 16px;
+        }
+        .textHover{
+            transition: all 0.3s;
+        }
+        .textHover:hover{
+            color: #939597;
+        }
+    }
+    .iconList{
+        li{
+            margin-right: 24px;
+        }
+        .iconHover{
+            transition: all 0.3s;
+        }
+        .iconHover:hover{
+            opacity: 0.5;
+        }
+    }
+}
